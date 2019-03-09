@@ -7,7 +7,6 @@
 
 .Divider .divider-bar {
     height: 50px;
-    background-image: url('/frame.png');
     background-position: center;
     background-repeat: repeat-x;
     background-size: 50px;

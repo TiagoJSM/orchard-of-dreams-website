@@ -9,7 +9,7 @@ class Divider extends React.Component {
         return (
             <div className="Divider">
                 <img src={endings} />
-                <div className="divider-bar" />
+                <div className="divider-bar" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/frame.png)`}} />
                 <img src={endings} />
             </div>
         );

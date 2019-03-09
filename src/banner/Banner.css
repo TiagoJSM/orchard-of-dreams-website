@@ -15,6 +15,7 @@
 }
 
 .BannerContainer > img {
+    max-height: 400px;
     height: 50%;
     filter: contrast(160%);
     position: absolute;

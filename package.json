@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tiagojsm.github.io/orchard-of-dreams-website",
+  "homepage": "http://tiagojsm.github.io",
   "dependencies": {
     "@types/react-images": "^0.5.1",
     "bootstrap": "^4.0.0",

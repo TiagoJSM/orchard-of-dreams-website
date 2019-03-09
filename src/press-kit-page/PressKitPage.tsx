@@ -33,8 +33,8 @@ class FactSheet extends React.Component {
 
         <h3>Social Media</h3>
         <p>Facebook</p>
-        <a href="https://www.facebook.com/Ordeal-Orchard-of-Dreams-268872300671308/">
-          https://www.facebook.com/Ordeal-Orchard-of-Dreams-268872300671308/
+        <a href="https://www.facebook.com/ordealorchardofdreams">
+          https://www.facebook.com/ordealorchardofdreams
         </a>
         <p>Twitter</p>
         <a href="https://twitter.com/OrdealOf">https://twitter.com/OrdealOf</a>

@@ -18,7 +18,7 @@ class Social extends React.Component {
                 </div>
                 <div className="social-media">
                     <SocialIcon url="https://twitter.com/OrdealOf" />
-                    <SocialIcon url="https://www.facebook.com/Ordeal-Orchard-of-Dreams-268872300671308/" />
+                    <SocialIcon url="https://www.facebook.com/ordealorchardofdreams" />
                 </div>
                 <div>
                     <a href="mailto:tiagomartins@orchardofdreams.com" target="_top">Send us an email, we would like to hear from you!</a>

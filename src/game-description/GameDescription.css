@@ -1,0 +1,16 @@
+.GameDescription {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.GameDescription > img {
+    height: 300px;
+}
+
+.GameDescription .text-description {
+    margin: 20px 0;
+    font-weight: bold;
+}

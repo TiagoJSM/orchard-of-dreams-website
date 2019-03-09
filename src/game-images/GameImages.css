@@ -1,0 +1,13 @@
+.GameImages { 
+    padding: 20px 100px;
+}
+
+.GameImages .image-grid {
+    display: block;
+}
+
+.GameImages .image-grid .image {
+    height: 140px;
+    margin: 5px;
+    cursor: pointer;
+}

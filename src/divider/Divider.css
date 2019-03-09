@@ -1,0 +1,19 @@
+.Divider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.Divider .divider-bar {
+    height: 50px;
+    background-image: url('/frame.png');
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 50px;
+    flex-grow: 1;
+}
+
+.Divider > img {
+    height: 25px;
+}

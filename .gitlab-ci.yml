@@ -1,5 +1,8 @@
 image: node:6.5.0 # can be upgraded, depending on your node version used
  
+variables:
+  PUBLIC_URL: "/orchard-of-dreams-website" # slash is important
+
 pages:
   cache:
     paths:

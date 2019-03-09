@@ -10,7 +10,7 @@ import ScrollToTop from './scroll-to-top/ScrollToTop';
 class App extends React.Component {
   render() {
     return (
-      <Router basename="/orchard-of-dreams-website">
+      <Router basename={process.env.PUBLIC_URL + '/'}>
         <ScrollToTop>
           <div className="App">
             <Route path="/" exact component={MainPage} />

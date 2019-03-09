@@ -6,7 +6,6 @@
 }
 
 .BannerContainer > div {
-    background-image: url('/background.png');
     height: 440px;
     width: 100%;
     background-position: center;

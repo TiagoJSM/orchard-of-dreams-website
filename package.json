@@ -2,11 +2,10 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tiagojsm.github.io/orchard-of-dreams-website",
+  "homepage": "http://tiagojsm.github.io/orchard-of-dreams-website",
   "dependencies": {
     "@types/react-images": "^0.5.1",
     "bootstrap": "^4.0.0",
-    "gh-pages": "^2.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-images": "^0.5.19",
@@ -32,6 +31,7 @@
     "@types/react-router": "^4.4.4",
     "@types/react-router-dom": "^4.3.1",
     "react-social-icons": "^4.1.0",
-    "typescript": "^3.3"
+    "typescript": "^3.3",
+    "gh-pages": "^2.0.1"
   }
 }

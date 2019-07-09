@@ -1,9 +1,10 @@
 .GameImages { 
     padding: 20px 100px;
 }
-
 .GameImages .image-grid {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .GameImages .image-grid .image {
@@ -11,3 +12,13 @@
     margin: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 992px) {
+    .GameImages { 
+        padding: 20px 0;
+    }
+
+    .GameImages .image-grid .image {
+        height: 100px;
+    }
+ }

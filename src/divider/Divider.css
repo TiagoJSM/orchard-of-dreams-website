@@ -5,6 +5,12 @@
     padding: 20px 100px;
 }
 
+@media (max-width: 992px) {
+    .Divider {
+        padding: 20px 0;
+    }
+ }
+
 .Divider .divider-bar {
     height: 50px;
     background-position: center;

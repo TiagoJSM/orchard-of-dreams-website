@@ -49,6 +49,7 @@ class GameImages extends React.Component<{}, State> {
                     onClose={this.closeLightbox}
                     onClickPrev={() => this.gotoPrevLightboxImage(imgSrcs.length)}
                     onClickNext={() => this.gotoNextLightboxImage(imgSrcs.length)}
+                    onClickThumbnail={this.gotoImage}
                     showThumbnails
                     />
             </div>
@@ -66,6 +67,12 @@ class GameImages extends React.Component<{}, State> {
     gotoPrevLightboxImage = (imgCount: number) => {
         this.setState((state) => ({ 
             currentImage: state.currentImage === 0 ? imgCount - 1 : state.currentImage - 1 
+        }));
+    }
+
+    gotoImage = (idx: number) => {
+        this.setState((state) => ({ 
+            currentImage: idx
         }));
     }
 
